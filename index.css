@@ -17,7 +17,7 @@ body{
 
   /* width: 100vw; */
   max-width: 80%;
-  max-height: 80%;
+  max-height: 90%;
 
   width: 70%;
 
@@ -75,7 +75,7 @@ body{
 .mycontainer .item{
   color: hsl(0, 0%, 53%);
   font-size: 14px;
-  margin: 0 10px;
+  margin: 0 5px;
   letter-spacing: 2px;
   display: flex;
   flex-direction: column;
@@ -125,4 +125,25 @@ body{
   background-color: hsl(277, 64%, 61%);
   opacity: 0.4;
   z-index: 0;
+}
+
+@media screen and (max-width: 876px) {
+  
+  .card-background 
+  {
+    flex-direction: column-reverse;
+  }
+
+  .image-container
+  {
+    width: 100%;
+  }
+
+  .content
+  {
+    margin-top: 20px;
+    /* border: red solid 2px; */
+    width: 100%;
+  }
+
 }
